@@ -1,0 +1,142 @@
+
+.thumbnails1,
+.thumbnails2,
+.thumbnails3,
+.thumbnails4,
+.thumbnails5,
+.thumbnails6,
+.thumbnails7,
+.thumbnails8,
+.thumbnails9,
+.thumbnails10,
+.thumbnails11,
+.thumbnails12 {
+    width:100%;
+}
+.video-title1,
+.video-title2,
+.video-title3,
+.video-title4,
+.video-title5,
+.video-title6,
+.video-title7,
+.video-title8,
+.video-title9,
+.video-title10,
+.video-title11,
+.video-title12 {
+    margin-top:6px;
+    font-size:14px;
+    font-weight:bold;
+    line-height: 20px;
+    margin-bottom:12px;
+    margin-left:15px;
+    
+
+}
+
+.profile1,
+.profile2,
+.profile3,
+.profile4,
+.profile5,
+.profile6,
+.profile7,
+.profile8,
+.profile9,
+.profile10,
+.profile11,
+.profile12 {
+    width:36px;
+    border-radius:40px;
+    margin-top:6px;
+    
+}
+.video-stats1,
+.video-stats2,
+.video-stats3,
+.video-stats4,
+.video-stats5,
+.video-stats6,
+.video-stats7,
+.video-stats8,
+.video-stats9,
+.video-stats10,
+.video-stats11,
+.video-stats12 {
+    font-size:12px;
+    margin-left:15px;
+
+}
+.video-author1,
+.video-author2,
+.video-author3,
+.video-author4,
+.video-author5,
+.video-author6,
+.video-author7,
+.video-author8,
+.video-author9,
+.video-author10,
+.video-author11,
+.video-author12 {
+    margin-bottom:4px;
+    font-size:12px;
+    margin-left:15px;
+}
+
+.thumbnail-row1,
+.thumbnail-row2,
+.thumbnail-row3,
+.thumbnail-row4,
+.thumbnail-row5,
+.thumbnail-row6,
+.thumbnail-row7,
+.thumbnail-row8,
+.thumbnail-row9,
+.thumbnail-row10,
+.thumbnail-row11,
+.thumbnail-row12 {
+    margin-bottom:12px;
+}
+.video-info-grid{
+    display:grid;
+    grid-template-columns:50px 1fr;
+}
+.video-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    column-gap:16px;
+    row-gap:40px;
+
+}
+@media(max-width: 750px) {
+    .video-grid,
+    .header {
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media (min-width:751px) and (max-width:999px){
+    .video-grid,
+    .header {
+        grid-template-columns:1fr 1fr 1fr;
+    
+}
+}
+@media(min-width: 1000px){
+    .video-grid,
+    .header {
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+}
+@media(max-width: 500px) {
+    .video-grid,
+    .header {
+        grid-template-columns:1fr;
+    }
+}
+
+
+
+
